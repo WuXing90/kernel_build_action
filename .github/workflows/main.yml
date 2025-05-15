@@ -46,7 +46,6 @@ jobs:
           ksu-url: https://github.com/ShirkNeko/SukiSU-Ultra/
           android-version: main
           lxc: true
-          lxc-patch: true
           ccache: true
           aosp-clang-version: r530567
           disable-lto: true
