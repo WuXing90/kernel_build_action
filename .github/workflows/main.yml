@@ -28,16 +28,28 @@ jobs:
     - name: Build Kernel
       uses: ./
       with:
-          kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
-          kernel-dir: msm-4.19
-          kernel-branch: taffy
-          config: cas_defconfig
+          kernel-url: https://github.com/OnePlusOSS/android_kernel_5.10_oneplus_mt6983
+          kernel-dir: kernel
+          kernel-branch: oneplus/mt6983_v_15.0.0_ace_2v
+          depth: 1
+          vendor: true
+          vendor-url: https://github.com/OnePlusOSS/android_kernel_modules_oneplus_mt6983
+          vendor-dir: vendor
+          vendor-branch: oneplus/mt6983_v_15.0.0_ace_2v
+          config: k6893v1_64_k510_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
           ksu: true
-          ksu-version: main
+          ksu-other: true
+          ksu-version: susfs-stable
+          ksu-url: https://github.com/ShirkNeko/SukiSU-Ultra/
           android-version: 12
-          aosp-clang-version: r383902
+          lxc: true
+          lxc-patch: true
+          nethunter: true
+          nethunter-patch: true
+          ccache: true
+          aosp-clang-version: r530567
           disable-lto: true
           anykernel3: true
