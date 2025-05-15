@@ -44,9 +44,9 @@ jobs:
           ksu-other: true
           ksu-version: susfs-stable
           ksu-url: https://github.com/ShirkNeko/SukiSU-Ultra/
-          android-version: main
+          android-version: android12-release
           lxc: true
           ccache: true
-          aosp-clang-version: r530567
+          aosp-clang-version: r416183b
           disable-lto: true
           anykernel3: true
