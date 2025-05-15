@@ -38,7 +38,7 @@ jobs:
           vendor-branch: oneplus/mt6983_v_15.0.0_ace_2v
           config: k6893v1_64_k510_defconfig
           arch: arm64
-          aosp-gcc: true
+          aosp-gcc: false
           aosp-clang: true
           ksu: true
           ksu-other: true
