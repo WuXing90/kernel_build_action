@@ -44,7 +44,7 @@ jobs:
           ksu-other: true
           ksu-version: susfs-stable
           ksu-url: https://github.com/ShirkNeko/SukiSU-Ultra/
-          android-version: 12
+          android-version: main
           lxc: true
           lxc-patch: true
           nethunter: true
