@@ -39,6 +39,7 @@ jobs:
           config: k6893v1_64_k510_defconfig
           arch: arm64
           aosp-clang: true
+          aosp-gcc: true
           ksu: true
           ksu-other: true
           ksu-version: susfs-stable
