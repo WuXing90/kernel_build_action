@@ -48,7 +48,6 @@ jobs:
           lxc: true
           lxc-patch: true
           nethunter: true
-          nethunter-patch: true
           ccache: true
           aosp-clang-version: r530567
           disable-lto: true
